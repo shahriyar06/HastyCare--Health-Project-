@@ -10,7 +10,7 @@ const Error = () => {
             </div>
             <img src={error} alt="Error image" className='w-6/12 mx-auto h-3/6 my-3' />
             <div className='text-center'>
-                <Link to='/' className='btn bg-[#F7A582] text-[#FFFFFF] text-xl px-12 py-3 rounded-xl'>Back to Home</Link>
+                <Link to='/' className='btn bg-[#F7A582] text-[#FFFFFF] text-xl px-12 py-2 rounded-xl hover:bg-[#f5976f]'>Back to Home</Link>
             </div>
         </>
     );
