@@ -1,5 +1,4 @@
 import { useForm } from 'react-hook-form';
-// import registers from '../../../public/All Image/Register.png';
 import { Link } from 'react-router-dom';
 import registerbg from '../../../public/All Image/register-bg.jpg';
 import SocialLogin from '../../Share/SocialLogin';
