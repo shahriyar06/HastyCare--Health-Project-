@@ -6,6 +6,8 @@ const Navbar = () => {
 
     const Navbar = <>
         <NavLink to='/' className={({ isActive }) => isActive ? "border-[#ff5d34] border text-[#ff5d34]" : "text-[#131313]"}>Home</NavLink>
+        <NavLink to='/doctors' className={({ isActive }) => isActive ? "border-[#ff5d34] border text-[#ff5d34]" : "text-[#131313]"}>Doctors</NavLink>
+        <NavLink to='/hospitals' className={({ isActive }) => isActive ? "border-[#ff5d34] border text-[#ff5d34]" : "text-[#131313]"}>Hospitals</NavLink>
         {/* {
             user && <><li><NavLink to='/myjobs' className={({ isActive }) => isActive ? "border-[#34ffdd] border text-[#34ffdd]" : "text-[#131313]"}>My Jobs</NavLink></li>
                 <li><NavLink to='/appliedjob' className={({ isActive }) => isActive ? "border-[#34ffdd] border text-[#34ffdd]" : "text-[#131313]"}>Applied Job</NavLink></li> </>
@@ -33,7 +35,7 @@ const Navbar = () => {
                         <img src={hastycarelogo} alt="HastyCare logo" className="h-[70px]" />
                     </div>
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 text-lg">
+                        <ul className="menu menu-horizontal px-1 text-lg gap-4">
                             {Navbar}
                         </ul>
                     </div>
